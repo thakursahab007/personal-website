@@ -1,0 +1,262 @@
+body {
+margin:0;
+text-align:center;
+font-family:'Brush Script MT', cursive;
+}
+
+
+h1 {margin:0;
+/*margin:top=0 right=auto bottom=0 left=auto  all four sides clockwise;
+margin : top, bottom = 0 and right,left = auto*/
+}
+
+
+h2 {
+color:#7FC8A9;
+font-size:60px;
+}
+ul {
+text-align:left;
+margin-top:0;
+margin-bottom:0;
+padding-top:0.1em;
+color: #545454;
+}
+h3 {
+    color: #45b29a;
+}
+hr {
+            background-color: white;
+            border-style: none;
+            border-top-style: dotted;
+            border-color: #e0e0e0;
+            border-width:5px;
+            width: 10%;
+<!--            height:1px;-->
+
+     }
+
+.header {
+background-color:#ddfad9;
+}
+
+.top-header1 {
+background-color:#ddfad9;
+width:200px;
+height:200px;
+display:inline-block;
+}
+.top-header2 {
+background-color:#ddfad9;
+display:inline-block;
+position:relative;
+bottom:30px;
+left:130px;
+
+
+}
+
+.top-icon {
+border-radius:100%;
+width:50%;
+position:relative;
+right:150px;
+}
+
+#top-banner li {
+display:inline;
+padding-right:20px;
+color:#7FC8A9;
+font-family: 'Klee One', cursive;
+font-weight:400;
+font-size:1.4em;
+/*position:relative;
+left:500px;
+down:100px;*/
+
+}
+
+.custom-title {
+font-family: 'Sacramento', cursive;
+color:#7FC8A9;
+font-size:2.5em;
+}
+
+.heading-paragraph {
+margin:0;
+font-size:20px;
+color:#7FC8A9;
+font-weight:normal;
+}
+
+
+.hi {
+        font-size: 2em;
+    color: #45b29a;
+    }
+
+
+.hi-content {
+    width: 40%;
+    /*margin-top: 0px;
+    margin-bottom: 10px;*/
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 1.35em;
+        color: #545454;
+        line-height:1.1;
+}
+
+.what-can-i-do-content {
+font-family: 'Klee One', cursive;
+font-weight:400;
+    color: #1e836c;
+}
+
+
+
+.top-container {
+background-color:#ddfad9;
+padding-top:100px;
+position:relative;
+}
+
+
+.mountain {
+margin-bottom:0;
+}
+
+
+.top-cloud {
+position:absolute;
+right:300px;
+top:40px;
+}
+
+
+.bottom-cloud {
+position:absolute;
+left:250px;
+top:200px;
+}
+
+.skill-row {
+width:50%;
+margin: 100px auto;
+text-align:center;
+line-height:1.5;
+margin-bottom:100px;
+}
+
+
+.skill-row2 {
+width:50%;
+margin:100px auto;
+text-align:left;
+line-height:1.5;
+}
+
+.language-i-code {
+padding-bottom:10px;
+position:relative;
+left:180px;
+}
+
+
+.internal-heading {
+font-weight:500;
+font-size: 2em;
+margin-bottom:0;
+text-align:center;
+}
+
+.internal-heading2 {
+font-weight:500;
+font-size: 2em;
+margin-bottom:0;
+text-align:left;
+}
+
+
+.icon-png {
+max-width:25%;
+height:auto;
+float:left;
+
+
+padding-bottom:30px;
+
+}
+
+
+.lappi-cartoon {
+max-width:25%;
+height:auto;
+float:right;
+padding-left:30px;
+}
+
+
+.email {    position: absolute;
+    height: 15px;
+    width: 24px;
+    left: 11%;
+    top: 33%;
+background-image:url(https://sanzidscloud.com/assets/img/content/home/contact/mail.png);
+}
+
+.message-content {
+font-weight:300;
+    width: 560px;
+    height: 120px;
+    /*margin-top: 0px;
+    margin-bottom: 10px;*/
+    margin: 0 auto;
+    margin-bottom: 0px;
+    font-size: 1.2em;
+        color: #545454;
+        line-height:1.42;
+}
+
+.button {width:15%;
+font-size: .8em;
+    text-align: center;
+    display: block;
+    position: relative;
+    background: #45b29a;
+    padding: .75em 2em .75em 3.5em;
+    color: #1b7f69;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top:0px;
+    margin-bottom:100px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: 400;
+    border: 0;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-transform: uppercase;
+}
+.btn {width:10%;
+color:#1b7f69;
+}
+
+.bottom-container {
+background-color: #c5ded7;
+color:#45b29a;
+}
+
+
+a {
+color: #45b29a;
+}
+
+
+table {
+margin:0 auto;
+}
+
+td {
+padding:2em;
+}
