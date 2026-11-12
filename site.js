@@ -1,5 +1,5 @@
 window.SITE_CONFIG = {
-    email: "akash2002tomar@gmail.com",
+    email: "akash2001tomar@gmail.com",
     githubUrl: "",
     linkedinUrl: "",
     resumeUrl: "https://drive.google.com/file/d/1DkE8AuTRDm6GW06UuEiXRYunRGoVBXl4/view?usp=sharing",
