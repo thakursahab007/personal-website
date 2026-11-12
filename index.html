@@ -1,116 +1,478 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Akash Tomar</title>
-    <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111416">
+    <meta name="description"
+        content="Akash Tomar is a Software Engineer focused on Java backend systems, Spring Boot, smart contracts, Ethereum, and decentralized applications.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Akash Tomar | Software Engineer">
+    <meta property="og:description" content="Building scalable backend systems and decentralized applications.">
+    <title>Akash Tomar | Software Engineer, Backend & Blockchain</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="site.js" defer></script>
 </head>
+
 <body>
-<div class="header">
-<div class="top-header1">
-    <img class="top-icon" src="icon.png" alt="icon-png">
-</div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <nav class="nav shell" aria-label="Main navigation">
+            <a class="wordmark" href="#home" aria-label="Akash Tomar home"><span>AT</span><i>.</i></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links"
+                aria-label="Open navigation">
+                <span></span><span></span>
+            </button>
+            <div class="nav-links" id="nav-links">
+                <a class="nav-link is-active" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#experience">Experience</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#education">Education</a>
+                <a class="nav-link nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
 
-<div class="top-header2">
-    <ul id="top-banner">
-        <li>About    </li>
-        <li>Works    </li>
-        <li>Publications    </li>
-        <li>Research    </li>
-        <li>Blog    </li>
-    </ul>
+    <main id="main">
+        <section class="hero section shell" id="home" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEER <span
+                        class="eyebrow-divider">/</span> 3+ YEARS</p>
+                <h1 id="hero-title">Building scalable backend systems <span class="and-mark">&amp;</span> decentralized
+                    applications.</h1>
+                <p class="hero-description">I'm a Software Engineer with 3+ years of experience building enterprise
+                    backend applications using Java and Spring Boot. Currently expanding my expertise into Blockchain
+                    Engineering, specializing in Solidity, Ethereum smart contracts, and decentralized application
+                    development.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">View projects <span
+                            aria-hidden="true">↓</span></a>
+                    <a class="button button-secondary" data-config-link="resumeUrl" href="#">Download resume <span
+                            aria-hidden="true">↗</span></a>
+                    <a class="text-link" href="#contact">Contact me <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="hero-socials" aria-label="Social profiles">
+                    <a data-config-link="githubUrl" href="#">GitHub <span aria-hidden="true">↗</span></a>
+                    <a data-config-link="linkedinUrl" href="#">LinkedIn <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+            <div class="hero-visual" aria-label="Illustration of connected backend and blockchain systems" role="img">
+                <div class="visual-grid"></div>
+                <div class="visual-caption"><span>SYSTEM MAP</span><span>01 — 05</span></div>
+                <div class="node node-api"><span class="node-symbol">{ }</span><span>API layer</span><small>Spring
+                        Boot</small></div>
+                <div class="node node-service"><span class="node-symbol">↔</span><span>Services</span><small>Java ·
+                        REST</small></div>
+                <div class="node node-chain"><span class="node-symbol">⌘</span><span>Ethereum</span><small>Smart
+                        contracts</small></div>
+                <div class="node node-data"><span class="node-symbol">▦</span><span>Data layer</span><small>SQL ·
+                        JPA</small></div>
+                <div class="connection connection-one"></div>
+                <div class="connection connection-two"></div>
+                <div class="connection connection-three"></div>
+                <div class="visual-index">AK / ENGINEERING</div>
+            </div>
+            <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+        </section>
 
-</div>
-</div>
-<div class="top-container">
-    <img class="top-cloud" src="cloud.svg" alt="cloud-png">
-    <h1><span class="custom-title">I'm Tomar.</span></h1>
-    <p class="heading-paragraph">an ios app developer</p>
-    <img class="bottom-cloud" src="cloud.svg" alt="cloud-png">
-    <img class="mountain"  src="moun.svg" alt="mountain-png">
-</div>
+        <section class="section section-muted" id="about" aria-labelledby="about-title">
+            <div class="shell about-layout">
+                <div class="section-heading">
+                    <p class="eyebrow">01 / ABOUT</p>
+                    <h2 id="about-title">Practical engineering.<br><span>Curious by design.</span></h2>
+                </div>
+                <div class="about-copy">
+                    <p class="lead">I build dependable software for real-world workflows, and I’m bringing that same
+                        systems mindset to decentralized applications.</p>
+                    <p>At Newgen Software, my work centers on Java, Spring Boot, APIs, enterprise applications, and
+                        database integrations. Alongside that experience, I’ve been building hands-on projects with
+                        Solidity and Ethereum, exploring how smart contracts can make application logic transparent and
+                        verifiable.</p>
+                    <div class="about-focus"><span>NOW FOCUSED ON</span>
+                        <p>Backend architecture <b>·</b> Smart contracts <b>·</b> Web3 integration</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="section shell" id="skills" aria-labelledby="skills-title">
+            <div class="section-heading section-heading-row">
+                <div>
+                    <p class="eyebrow">02 / TOOLKIT</p>
+                    <h2 id="skills-title">Technologies I work with</h2>
+                </div>
+                <p class="section-note">A practical toolkit across enterprise backend and Web3.</p>
+            </div>
+            <div class="skill-grid">
+                <article class="skill-group">
+                    <div class="skill-title"><span class="skill-index">A</span>
+                        <h3>Backend development</h3>
+                    </div>
+                    <ul class="tag-list">
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>REST APIs</li>
+                        <li>Microservices</li>
+                        <li>Hibernate / JPA</li>
+                        <li>JDBC</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="skill-group skill-group-featured">
+                    <div class="skill-title"><span class="skill-index">B</span>
+                        <h3>Blockchain development</h3>
+                    </div>
+                    <ul class="tag-list">
+                        <li>Solidity</li>
+                        <li>Ethereum</li>
+                        <li>Smart Contracts</li>
+                        <li>EVM</li>
+                        <li>ERC20</li>
+                        <li>ERC721</li>
+                        <li>OpenZeppelin</li>
+                        <li>Web3.js</li>
+                        <li>Ethers.js</li>
+                        <li>Hardhat</li>
+                        <li class="learning-tag">Foundry <span>learning</span></li>
+                    </ul>
+                </article>
+                <article class="skill-group">
+                    <div class="skill-title"><span class="skill-index">C</span>
+                        <h3>Frontend &amp; Web3</h3>
+                    </div>
+                    <ul class="tag-list">
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>MetaMask</li>
+                        <li>Contract integration</li>
+                    </ul>
+                </article>
+                <article class="skill-group">
+                    <div class="skill-title"><span class="skill-index">D</span>
+                        <h3>Databases</h3>
+                    </div>
+                    <ul class="tag-list">
+                        <li>Microsoft SQL Server</li>
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Database design</li>
+                        <li>SQL</li>
+                    </ul>
+                </article>
+                <article class="skill-group">
+                    <div class="skill-title"><span class="skill-index">E</span>
+                        <h3>Developer tools</h3>
+                    </div>
+                    <ul class="tag-list">
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Remix IDE</li>
+                        <li>Postman</li>
+                        <li>Hardhat</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
 
+        <section class="section section-muted" id="experience" aria-labelledby="experience-title">
+            <div class="shell">
+                <div class="section-heading section-heading-row">
+                    <div>
+                        <p class="eyebrow">03 / EXPERIENCE</p>
+                        <h2 id="experience-title">Building for the real world</h2>
+                    </div>
+                    <span class="experience-duration">3+ YEARS IN SOFTWARE ENGINEERING</span>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-marker"><span></span></div>
+                    <article class="experience-entry">
+                        <div class="experience-meta"><span>Software Engineer</span><span>3+ years</span></div>
+                        <h3>Newgen Software</h3>
+                        <p class="experience-intro">Enterprise applications, business workflows, and backend
+                            functionality.</p>
+                        <ul class="experience-list">
+                            <li>Developing backend APIs using Java and Spring Boot.</li>
+                            <li>Building and maintaining enterprise-level, product-based applications.</li>
+                            <li>Working with JavaScript integrations and Java-based business logic.</li>
+                            <li>Implementing database operations and integrations using SQL.</li>
+                            <li>Contributing to business workflows, application integrations, and backend functionality.
+                            </li>
+                        </ul>
+                        <div class="experience-stack"><span>Java</span><span>Spring Boot</span><span>REST
+                                APIs</span><span>SQL</span><span>JavaScript</span></div>
+                    </article>
+                </div>
+                <div class="enterprise-work">
+                    <div class="subsection-heading">
+                        <p class="eyebrow">SELECTED PROFESSIONAL PROJECTS</p>
+                        <p>Enterprise delivery across financial services and public-sector workflows.</p>
+                    </div>
+                    <div class="enterprise-grid">
+                        <article class="enterprise-item"><span class="enterprise-number">01</span>
+                            <h3>SMBC Trade</h3>
+                            <p>Backend development and banking platform integration.</p>
+                            <div class="mini-tags"><span>Java</span><span>Spring Boot</span></div>
+                        </article>
+                        <article class="enterprise-item"><span class="enterprise-number">02</span>
+                            <h3>SMBC Remittance</h3>
+                            <p>Remittance workflows with security and integrations.</p>
+                            <div class="mini-tags"><span>Java</span><span>Spring Boot</span></div>
+                        </article>
+                        <article class="enterprise-item"><span class="enterprise-number">03</span>
+                            <h3>BOB Appointment Scheduler</h3>
+                            <p>Scheduling workflows for account opening and retail loans. Project impact: 20%
+                                improvement in operational efficiency and 15% improvement in customer satisfaction.</p>
+                            <div class="mini-tags"><span>Java</span><span>JavaScript</span><span>Microsoft SQL
+                                    Server</span></div>
+                        </article>
+                        <article class="enterprise-item"><span class="enterprise-number">04</span>
+                            <h3>Antigua &amp; Barbuda CIP</h3>
+                            <p>Secure citizenship application workflows and government database integration.</p>
+                            <div class="mini-tags"><span>Java</span><span>Spring Boot</span></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="section shell projects-section" id="projects" aria-labelledby="projects-title">
+            <div class="section-heading section-heading-row">
+                <div>
+                    <p class="eyebrow">04 / BLOCKCHAIN PROJECTS</p>
+                    <h2 id="projects-title">On-chain, by design.</h2>
+                </div>
+                <p class="section-note">Smart contract projects exploring ownership, coordination, and trust without a
+                    central intermediary.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card project-card-wide">
+                    <div class="project-art art-supply" aria-hidden="true">
+                        <div class="art-label">PRODUCT JOURNEY / 04 STAGES</div>
+                        <div class="supply-path"><span
+                                class="supply-step active-step">01<small>Maker</small></span><i></i><span
+                                class="supply-step active-step">02<small>Transit</small></span><i></i><span
+                                class="supply-step active-step">03<small>Store</small></span><i></i><span
+                                class="supply-step">04<small>Buyer</small></span></div>
+                        <div class="art-code">EVENT LOG <b>0x7b...4c2</b></div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-kicker"><span>01 / SUPPLY CHAIN</span><span class="project-type">DAPP</span>
+                        </div>
+                        <h3>Supply Chain Management DApp</h3>
+                        <p>Track products from manufacturing to final sale with role-aware lifecycle updates recorded
+                            on-chain.</p>
+                        <details class="project-details">
+                            <summary>Explore contract features <span aria-hidden="true">+</span></summary>
+                            <ul>
+                                <li>Role-based Manufacturer, Distributor, and Retailer access.</li>
+                                <li>Product lifecycle management with blockchain transaction tracking.</li>
+                                <li>Event-driven state updates and smart contract validation.</li>
+                            </ul>
+                        </details>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>Solidity</span><span>Ethereum</span><span>Hardhat</span><span>JavaScript</span><span>React.js</span><span>Ethers.js</span>
+                            </div>
+                            <div class="project-links"><a data-config-link="supplyChainRepo" href="#">Source code
+                                    ↗</a><a data-config-link="supplyChainDemo" href="#">Live demo ↗</a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-art art-staking" aria-hidden="true">
+                        <div class="art-label">STAKE / EARN / WITHDRAW</div>
+                        <div class="staking-orbit">
+                            <div class="orbit-ring"></div><span class="orbit-core">ERC<br>20</span><span
+                                class="orbit-point point-one">STAKE</span><span
+                                class="orbit-point point-two">REWARD</span><span
+                                class="orbit-point point-three">CLAIM</span>
+                        </div>
+                        <div class="art-code">REWARD MODEL <b>TIME-BASED</b></div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-kicker"><span>02 / TOKEN ECONOMY</span><span
+                                class="project-type">DAPP</span></div>
+                        <h3>ERC20 Token &amp; Staking</h3>
+                        <p>A custom token and staking flow for deposits, balance tracking, and time-based rewards.</p>
+                        <details class="project-details">
+                            <summary>Explore contract features <span aria-hidden="true">+</span></summary>
+                            <ul>
+                                <li>ERC20 transfers, approvals, and owner-controlled minting.</li>
+                                <li>Stake and withdraw tokens while tracking staking balances.</li>
+                                <li>Calculate applicable rewards based on staking time.</li>
+                            </ul>
+                        </details>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>Solidity</span><span>OpenZeppelin</span><span>ERC20</span><span>Hardhat</span><span>JavaScript</span>
+                            </div>
+                            <div class="project-links"><a data-config-link="stakingRepo" href="#">Source code ↗</a><a
+                                    data-config-link="stakingDemo" href="#">Live demo ↗</a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-art art-market" aria-hidden="true">
+                        <div class="art-label">COLLECTION / 001</div>
+                        <div class="nft-frame">
+                            <div class="nft-image"><span class="nft-sun"></span><span
+                                    class="nft-mountain mountain-back"></span><span
+                                    class="nft-mountain mountain-front"></span></div>
+                            <div class="nft-caption"><span>GENESIS OBJECT</span><b>#0042</b></div>
+                        </div>
+                        <div class="art-code">LISTED FOR <b>1.25 ETH</b></div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-kicker"><span>03 / DIGITAL OWNERSHIP</span><span
+                                class="project-type">MARKETPLACE</span></div>
+                        <h3>NFT Marketplace</h3>
+                        <p>A decentralized marketplace to mint NFTs, manage listings, and exchange assets using ETH.</p>
+                        <details class="project-details">
+                            <summary>Explore contract features <span aria-hidden="true">+</span></summary>
+                            <ul>
+                                <li>ERC721 minting with metadata URI and marketplace listings.</li>
+                                <li>Cancel listings, approve assets, and transfer NFT ownership.</li>
+                                <li>Purchase listed NFTs in ETH with seller and listing management.</li>
+                            </ul>
+                        </details>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>Solidity</span><span>ERC721</span><span>OpenZeppelin</span><span>Hardhat</span><span>React.js</span><span>Ethers.js</span>
+                            </div>
+                            <div class="project-links"><a data-config-link="nftRepo" href="#">Source code ↗</a><a
+                                    data-config-link="nftDemo" href="#">Live demo ↗</a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-art art-voting" aria-hidden="true">
+                        <div class="art-label">PROPOSAL #008 / OPEN</div>
+                        <div class="vote-panel">
+                            <div class="vote-question">Fund community<br>infrastructure?</div>
+                            <div class="vote-option"><span>YES</span><i><b></b></i><strong>68%</strong></div>
+                            <div class="vote-option"><span>NO</span><i><b></b></i><strong>32%</strong></div>
+                        </div>
+                        <div class="art-code">VOTING CLOSES <b>IN 02:14:08</b></div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-kicker"><span>04 / COMMUNITY GOVERNANCE</span><span
+                                class="project-type">DAPP</span></div>
+                        <h3>Decentralized Voting</h3>
+                        <p>A transparent voting platform for creating proposals and recording community decisions
+                            on-chain.</p>
+                        <details class="project-details">
+                            <summary>Explore contract features <span aria-hidden="true">+</span></summary>
+                            <ul>
+                                <li>Create proposals with yes/no voting and proposal deadlines.</li>
+                                <li>Prevent duplicate votes and list both live and historical proposals.</li>
+                                <li>Search proposals and handle smart contract events.</li>
+                            </ul>
+                        </details>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>Solidity</span><span>Ethereum</span><span>Hardhat</span><span>JavaScript</span><span>React.js</span><span>Ethers.js</span>
+                            </div>
+                            <div class="project-links"><a data-config-link="votingRepo" href="#">Source code ↗</a><a
+                                    data-config-link="votingDemo" href="#">Live demo ↗</a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-art art-wallet" aria-hidden="true">
+                        <div class="art-label">EXECUTION POLICY / 2 OF 3</div>
+                        <div class="wallet-board">
+                            <div class="wallet-owner owner-one">AT<span>✓</span></div>
+                            <div class="wallet-owner owner-two">MK<span>✓</span></div>
+                            <div class="wallet-owner owner-three">RS<span>·</span></div>
+                            <div class="wallet-lines"></div>
+                            <div class="wallet-transaction"><span>TRANSFER</span><b>0.80 ETH</b><small>2 confirmations
+                                    required</small></div>
+                        </div>
+                        <div class="art-code">STATUS <b>AWAITING APPROVAL</b></div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-kicker"><span>05 / SHARED CUSTODY</span><span class="project-type">SMART
+                                WALLET</span></div>
+                        <h3>Multi-Signature Wallet</h3>
+                        <p>A shared wallet where transactions execute only after the required owners approve them.</p>
+                        <details class="project-details">
+                            <summary>Explore contract features <span aria-hidden="true">+</span></summary>
+                            <ul>
+                                <li>Multiple owners with a configurable confirmation threshold.</li>
+                                <li>Create transactions, confirm them, or revoke a confirmation.</li>
+                                <li>Execute only after required approvals, with owner validation.</li>
+                            </ul>
+                        </details>
+                        <div class="project-footer">
+                            <div class="project-tags"><span>Solidity</span><span>Ethereum</span><span>Smart
+                                    Contracts</span><span>Hardhat</span><span>JavaScript</span></div>
+                            <div class="project-links"><a data-config-link="walletRepo" href="#">Source code ↗</a><a
+                                    data-config-link="walletDemo" href="#">Live demo ↗</a></div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-<div class="middle-container">
-  <div class="profile">
-    <img class="" src="icon.png" alt="icon-png">
-    <h2 class="hi">Hi.</h2>
-      <p class="hi-content">
-          I'm an ios app developer from Delhi, India. I'm
-      passionate to work on swift programming language, developing ios apps, development in python.
-      </p>
-  </div>
-  <hr size="3" noshade>
-  <div class="skills">
-    <h2 class="what-can-i-do-content">What I Can Do.</h2>
-    <div class="skill-row">
-      <img class="icon-png" src="icon.png" alt="icon-png">
-      <h3 class="internal-heading">Languages I code.</h3>
-     <ul class="language-i-code">
-         <li>C/C++</li>
-         <li>Python</li>
-         <li>HTML</li>
-         <li>CSS</li>
-         <li>Swift <br> </li>
-     </ul>
-    </div>
-    <div class="skill-row2">
-      <img class="lappi-cartoon" src="iconlappi.svg" alt="lappi-cartoon-image">
+        <section class="section section-muted" id="education" aria-labelledby="education-title">
+            <div class="shell education-layout">
+                <div class="section-heading">
+                    <p class="eyebrow">05 / EDUCATION</p>
+                    <h2 id="education-title">A foundation in<br>computer science.</h2>
+                </div>
+                <article class="education-item"><span class="education-mark">B.Tech</span>
+                    <div>
+                        <h3>Bachelor of Technology</h3>
+                        <p>Computer Science and Engineering</p>
+                    </div><span class="education-arrow" aria-hidden="true">↗</span>
+                </article>
+            </div>
+        </section>
 
-      <h3 class="internal-heading2">Tools I can use.</h3>
-      <ul>
-          <li>Git & GitHub</li>
-          <li>XCode</li>
-          <li>Pycharm IDE</li>
-          <li>Chrome Developer Tools</li>
-      </ul>
-    </div>
-  </div>
-  <hr>
-  <div class="contact-me">
-    <h2 class="what-can-i-do-content">I can help.</h2>
-    <h3 class="internal-heading">I’m currently available for freelance work.</h3>
-    <p class="message-content">
-If you have a project that you want to get started, think you need my help with something
-        or just fancy saying hey, then get in touch.</p>
-      <p class="button">
-          <i class="email"></i>
-    <a class="btn" href="mailto:akash2002tomar@gmail.com">MESSAGE ME</a></p>
-  </div>
-</div>
+        <section class="section contact-section shell" id="contact" aria-labelledby="contact-title">
+            <div class="contact-panel">
+                <div class="contact-copy">
+                    <p class="eyebrow">06 / CONTACT</p>
+                    <h2 id="contact-title">Let’s build something<br><span>that matters.</span></h2>
+                    <p>Open to conversations about backend engineering, blockchain, and thoughtful software.</p>
+                    <div class="contact-socials"><a data-config-link="githubUrl" href="#">GitHub ↗</a><a
+                            data-config-link="linkedinUrl" href="#">LinkedIn ↗</a><a data-email-link
+                            href="mailto:akash2002tomar@gmail.com">Email ↗</a></div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <label for="contact-name">Name</label><input id="contact-name" name="name" autocomplete="name"
+                        required maxlength="100" placeholder="Your name">
+                    <label for="contact-email">Email</label><input id="contact-email" name="email" type="email"
+                        autocomplete="email" required maxlength="200" placeholder="you@example.com">
+                    <label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="3"
+                        required maxlength="2000" placeholder="What would you like to discuss?"></textarea>
+                    <button class="button button-primary form-submit" type="submit">Start a conversation <span
+                            aria-hidden="true">↗</span></button>
+                    <p class="form-note" id="form-note" aria-live="polite">Your email app will open with your message
+                        ready to send.</p>
+                </form>
+            </div>
+        </section>
+    </main>
 
-
-
-<div class="bottom-container">
-    <table>
-        <tr>
-            <td><a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a></td>
-            <td><a class="footer-link" href="https://twitter.com/">Twitter</a></td>
-            <td><a class="footer-link" href="https://www.appbrewery.co/">Website</a></td>
-        </tr>
-
-    </table>
-
-<!--    <ul>-->
-<!--        <li><a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a></li>-->
-<!--  <li><a class="footer-link" href="https://twitter.com/">Twitter</a></li>-->
-<!--  <li><a class="footer-link" href="https://www.appbrewery.co/">Website</a></li>-->
-
-
-
-<!--    </ul>-->
-      <p>© 2021 Akash Tomar. All rights reserved.
-Special Thanks to Sean Halpin</p>
-</div>
-
-
+    <footer class="site-footer">
+        <div class="shell footer-inner"><a class="wordmark" href="#home"
+                aria-label="Back to top"><span>AT</span><i>.</i></a>
+            <p>Software Engineer · Java · Blockchain</p><span>© <span id="current-year">2026</span> Akash Tomar</span>
+        </div>
+    </footer>
 </body>
+
 </html>
